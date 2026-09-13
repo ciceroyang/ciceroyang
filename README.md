@@ -34,7 +34,11 @@ I built a small set of independent, open-source tools for the
 The public record includes a
 [plugin field guide](https://github.com/deepseek-ai/deepseek-harness/discussions/961)
 and the
-[`dsh-doctor` interoperability discussion](https://github.com/deepseek-ai/deepseek-harness/discussions/1719).
+[`dsh-doctor` interoperability discussion](https://github.com/deepseek-ai/deepseek-harness/discussions/1719),
+a
+[multi-frame session-log format proposal](https://github.com/deepseek-ai/deepseek-harness/discussions/2328),
+and
+[merged community-directory contributions](https://github.com/0xsline/awesome-deepseek-harness/pulls?q=is%3Apr+author%3Aciceroyang+is%3Amerged).
 These are independent, unofficial community projects, not official DeepSeek
 releases.
 
