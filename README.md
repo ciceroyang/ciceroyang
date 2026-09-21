@@ -19,6 +19,7 @@ check ran. A record that could not be measured says what stopped it, and a
 repository record can never be `clean`, because nothing read its source. Zero
 runtime dependencies, and the whole test suite runs from a clone with nothing
 installed.
+
 ### [agent-context-lens](https://github.com/ciceroyang/agent-context-lens)
 
 A local, zero-API-key audit for agent instructions, skills, and MCP
