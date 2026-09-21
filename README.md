@@ -8,6 +8,17 @@ experience.
 
 ## Selected work
 
+### [agentgate](https://github.com/ciceroyang/agentgate)
+
+A control plane for the tools agents run — inventory, evidence, policy and
+enforcement — together with a daily-rebuilt evidence index of the public MCP
+ecosystem.
+
+Everything in it is organized around one rule: `clean` is only emitted when every
+check ran. A record that could not be measured says what stopped it, and a
+repository record can never be `clean`, because nothing read its source. Zero
+runtime dependencies, and the whole test suite runs from a clone with nothing
+installed.
 ### [agent-context-lens](https://github.com/ciceroyang/agent-context-lens)
 
 A local, zero-API-key audit for agent instructions, skills, and MCP
@@ -45,6 +56,7 @@ releases.
 ## How I work
 
 - Ship runnable tools, not AI theater.
+- Never report clean about work that did not run; a gap has to name itself.
 - Measure context before adding more context.
 - Keep the default path local and inspectable.
 - Treat evals and failure cases as product features.
